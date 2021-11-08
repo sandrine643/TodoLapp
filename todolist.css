@@ -1,0 +1,45 @@
+body, .message, .form, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  
+
+
+input {
+    width: 90%;
+    border: 5%;
+    border-bottom: 50% solid rgba(grey, 0.5);
+    font-size: 100%;
+    font-weight: 300;
+    color: #797A9E;
+    letter-spacing: 0.11em;
+    margin: 10%;
+
+  }
+
+  .button {
+    width: 100%;
+  
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    z-index: 3;
+    letter-spacing: 2%;
+    background: linear-gradient(45deg, blue, purple);
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 750%){
+    .container {
+      transform: scale(0.8);
+    }
+  }
+  
